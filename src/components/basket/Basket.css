@@ -1,0 +1,179 @@
+.basket__on {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  z-index: 8;
+  /* background-color: red; */
+  display: flex;
+}
+
+.basketBg {
+  width: 70%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.377);
+}
+
+.basketWrapper {
+  width: 30%;
+  height: 100vh;
+  background-color: white;
+}
+.basketNav {
+  width: 100%;
+  height: 90px;
+  background-color: #0071dc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+  color: white;
+}
+
+.basketNav h1 {
+  font-size: 25px;
+}
+
+.basketNav svg {
+  font-size: 25px;
+}
+
+.basketCarts {
+  text-align: center;
+  background-color: white;
+  padding: 20px 15px;
+  line-height: 2;
+}
+
+.basketCarts p {
+  font-size: 15px;
+  color: grey;
+}
+
+.basketBtns {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.basketBtns button {
+  padding: 10px 14px;
+  border-radius: 20px;
+  border: 1px solid #000;
+  background-color: white;
+}
+.basketBtns button:hover {
+  cursor: pointer;
+}
+
+.basketBtns button:nth-child(even) {
+  margin-left: 20px;
+}
+.basketBtns button:nth-child(3) {
+  margin-right: 5px;
+}
+.basketBtns button:nth-child(1) {
+  margin-left: 5px;
+}
+/* Basket */
+
+.bascetProducts {
+  width: 100%;
+  max-height: 80vh;
+  overflow: auto;
+}
+.AddedCarts {
+  width: 100%;
+  height: 50vh;
+  background-color: white;
+}
+
+.AddedCartsInfo {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.AddedCartsInfo img {
+  width: 100px;
+}
+
+.AddedCartsInfo p {
+  font-size: 13px;
+  margin-left: 10px;
+  width: 200px;
+}
+
+.addedProductCost {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 10px;
+}
+
+.addedProductCost h3 {
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.addedProductCost h5 {
+  text-decoration: line-through;
+  opacity: 0.8;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.AddedCartsCount {
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+
+.AddedCartsCountBtn {
+  width: 120px;
+  height: 32px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2px;
+  box-shadow: 0 0 0 0.5px grey;
+  margin-left: 80px;
+}
+.AddedCartsCount .AddedCartsCountText {
+  font-size: 15px;
+  text-decoration: underline;
+  padding-left: 20px;
+}
+
+.AddedCartsCount .AddedCartsCountText:hover {
+  text-decoration: none;
+  color: #0071dc;
+}
+
+.AddedCartsCountBtn input {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background-color: white;
+}
+
+.AddedCartsCountBtn input:hover {
+  background-color: grey;
+  color: #000;
+}
+
+.basketNav span {
+  font-size: 15px;
+}

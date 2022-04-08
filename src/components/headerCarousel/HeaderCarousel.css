@@ -1,0 +1,120 @@
+.headerCarousel {
+  width: 100%;
+  height: 87vh;
+}
+
+.headerCarouselNav {
+  width: 100%;
+  height: 40px;
+  background-color: #004f9a;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+}
+
+.headerCarouselNav button {
+  width: 180px;
+  height: 40px;
+  background-color: #004f9a;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.headerCarouselNav button:hover {
+  cursor: pointer;
+}
+
+.headerCarouselNav button span {
+  padding: 0 10px 0 7px;
+  text-decoration: underline;
+  font-size: 13px;
+}
+
+.headerCarouselNav p {
+  font-size: 22px;
+  color: white;
+}
+
+/* carousel */
+
+.headerCarouselWrapper {
+  width: 91%;
+  height: 470px;
+  border-radius: 10px;
+  margin: 30px auto 0;
+  position: relative;
+}
+
+.headerSwiper {
+  width: 100%;
+  height: 470px;
+}
+
+.sliderHeader {
+  width: 100%;
+  height: 470px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.sliderHeaderText {
+  width: 350px;
+  height: 300px;
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+}
+
+.sliderHeaderText h1 {
+  font-size: 27px;
+  color: white;
+  line-height: 2.4;
+}
+
+.sliderHeaderText p {
+  font-size: 17px;
+  color: white;
+  line-height: 1.4;
+}
+
+.sliderHeaderText button {
+  padding: 8px 16px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  background-color: white;
+  color: #000;
+  font-size: 21px;
+  border: 0.5px solid #000;
+  text-align: start;
+  margin-top: 20px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  right: 10px;
+  padding: 30px;
+  color: #f1f1f1 !important;
+  opacity: 0;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: rgb(46, 77, 134) !important;
+}
+.swiper-pagination-bullet {
+  background-color: #f1f1f1 !important;
+}
+.swiper-pagination-bullet:hover {
+  background-color: rgb(46, 77, 134) !important;
+}

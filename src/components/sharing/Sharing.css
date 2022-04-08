@@ -1,0 +1,56 @@
+.sharingInfo {
+  width: 100%;
+  height: 600px;
+}
+
+.sharingInfo__wrapper {
+  width: 91%;
+  height: 600px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.sharingInfo__title {
+  font-size: 14px;
+}
+
+.sharingInfo__collections {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sharingInfo__item {
+  width: 49%;
+  height: 490px;
+  border-radius: 15px;
+  box-shadow: 0 0 0 1px rgba(128, 128, 128, 0.377);
+}
+
+.sharingInfo__item img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.sharingInfo__item h1 {
+  font-size: 18px;
+  margin: 10px 0 0 15px;
+}
+
+.sharingInfo__item h4 {
+  margin: 10px 0 0 15px;
+  color: rgb(128, 128, 128);
+  font-size: 12px;
+}
+
+.sharingInfo__item button {
+  padding: 5px 10px;
+  border-radius: 30px;
+  margin: 40px 0 0 15px;
+  border: none;
+  box-shadow: 0 0 0 0.5px #000;
+  outline: none;
+  background-color: white;
+}

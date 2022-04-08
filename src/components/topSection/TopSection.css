@@ -1,0 +1,158 @@
+.topSection {
+  width: 100%;
+  height: 550px;
+  margin-top: 20px;
+}
+
+.topSectionbottom__heading {
+  margin: 25px 0 0 60px;
+  font-size: 18px;
+}
+
+.topSectionbottom {
+  width: 91%;
+  height: 50px;
+  background-image: url("https://i5.walmartimages.com/dfw/63fd9f59-ac39/29c6759d-7f14-49fa-bd3a-b870eb4fb8fb/v1/wplus-bg-dweb.svg");
+  background-color: orange;
+  margin: 25px auto 0;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+}
+
+.topSectionbottom:hover {
+  cursor: pointer;
+}
+.topSectionbottom img {
+  width: 40px;
+  margin-right: 20px;
+}
+
+.topSectionbottom span {
+  opacity: 0.8;
+  margin-left: 15px;
+  text-decoration: underline;
+}
+
+.topSectionWrapper {
+  width: 91%;
+  height: 420px;
+  /* background-color: red; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topSectionItem {
+  width: 32%;
+  height: 410px;
+
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top__section__pro {
+  width: 100%;
+  height: 145px;
+  border-radius: 10px;
+  background-color: #e6f1fc;
+  box-shadow: 0 0 2px grey;
+  padding: 22px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top__section__pro h3,
+.top__section__view h3 {
+  font-size: 16px;
+}
+
+.top__section__pro button {
+  width: 90px;
+  height: 30px;
+  border-radius: 15px;
+  padding: 5px 10px;
+  border: 0.5px solid #000;
+  outline: none;
+  background-color: white;
+}
+
+.top__section__pro button:hover {
+  cursor: pointer;
+  border: 2px solid #000;
+}
+
+.top__section__view {
+  width: 100%;
+  box-shadow: 0 0 2px grey;
+  height: 245px;
+  border-radius: 10px;
+  padding: 22px 15px;
+}
+
+.top__section__view div {
+  display: flex;
+  justify-content: space-between;
+}
+.top__section__view span {
+  font-size: 14px;
+  text-decoration: underline;
+}
+.top__section__view span:hover {
+  cursor: pointer;
+}
+
+.top__section__view:nth-child(2) ul {
+  width: 80%;
+  margin: 30px auto 0;
+  display: grid;
+  place-content: center;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* background-color: red; */
+  text-align: center;
+  font-size: 13px;
+}
+
+.top__section__view ul li {
+  padding: 10px 15px;
+  /* opacity: 0.5; */
+}
+.top__section__view ul li img {
+  margin-bottom: 5px;
+}
+
+.topSectionItem:nth-child(2),
+.topSectionItem:nth-child(3) {
+  padding: 22px 15px 40px;
+  box-shadow: 0 0 2px grey;
+}
+
+.topSectionItem:nth-child(2) .top__section__grid,
+.topSectionItem:nth-child(3) .top__section__grid {
+  width: 100%;
+  height: 330px;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  text-align: center;
+  font-size: 12px;
+  /* background-color: red; */
+}
+
+.topSectionItem:nth-child(2) .top__section__grid img:hover,
+.topSectionItem:nth-child(3) .top__section__grid img:hover {
+  cursor: pointer;
+}
+
+.topSectionItem:nth-child(2) .top__section__grid p:hover,
+.topSectionItem:nth-child(3) .top__section__grid p:hover {
+  cursor: pointer;
+}

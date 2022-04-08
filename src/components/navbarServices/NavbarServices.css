@@ -1,0 +1,68 @@
+.services__wrapper {
+  position: absolute;
+  top: -25px;
+  left: 280px;
+  width: 220px;
+  height: 400px;
+  background-color: white;
+  border-radius: 0 0 0px 20px;
+  text-align: center;
+}
+
+.services__wrapper__on {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  background-color: rgba(78, 76, 76, 0.212);
+  height: calc(100vh - 90px);
+  width: 100%;
+  z-index: 255;
+}
+.services__wrapper__off {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  background-color: rgba(78, 76, 76, 0.212);
+  height: calc(100vh - 90px);
+  width: 100%;
+  display: none;
+  z-index: 500;
+}
+
+.services__wrapper .services__wrapper__top {
+  width: 100%;
+  height: 25px;
+  background-color: #0071dc;
+}
+
+.services__wrapper h5 {
+  font-size: 17px;
+  text-align: start;
+  padding: 22px 0 15px 25px;
+}
+
+.services__wrapper ul .service__item__off {
+  font-size: 15px;
+  padding: 10px 0 10px 25px;
+  text-align: start;
+  position: relative;
+}
+
+.services__wrapper ul .service__item__on {
+  font-size: 15px;
+  padding: 10px 0 10px 25px;
+  text-align: start;
+  background-color: #e6f1fc;
+  position: relative;
+}
+
+.services__wrapper ul .service__item__on div {
+  width: 5px;
+  height: 80%;
+  background-color: #0071dc;
+  position: absolute;
+  top: 3px;
+  left: 0;
+  border-radius: 0 5px 5px 0;
+  display: block;
+}

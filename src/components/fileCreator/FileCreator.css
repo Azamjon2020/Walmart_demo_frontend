@@ -1,0 +1,155 @@
+.file__creator {
+  width: calc(100% - 310px);
+  height: 96vh;
+  margin-left: 290px;
+  margin-top: 0.4%;
+  border-radius: 10px;
+  box-shadow: rgba(109, 140, 170, 0.2) 0px 8px 24px;
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create__file {
+  background-color: #fff;
+  width: 95%;
+  height: 95%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 15px;
+  left: 35px;
+  border-radius: 10px;
+}
+
+.left,
+.right {
+  width: auto;
+  height: auto;
+}
+
+.input_p {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 7px 0;
+  color: #333333;
+}
+
+.input_p a {
+  color: #0071dc;
+}
+
+.file_name_input {
+  width: 451px;
+  height: 45px;
+  text-indent: 10px;
+  font-size: 18px;
+  margin: 0 0 20px 0;
+  border-radius: 10px;
+  border: 2px solid #0071dc;
+  outline: none;
+  background-color: #fff;
+  color: #333333;
+}
+
+.file_name_input::placeholder {
+  color: #333333;
+}
+.productStarWrapper {
+  width: 45%;
+  height: 100px;
+}
+.product__star {
+  width: 100%;
+  height: 45px;
+  text-indent: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 2px solid #0071dc;
+  outline: none;
+}
+
+.productSelects {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.productType {
+  width: 45%;
+  height: 100px;
+}
+
+.file_size_input {
+  width: 100%;
+  height: 45px;
+  text-indent: 10px;
+  font-size: 18px;
+  margin: 0 0 20px 0;
+  border-radius: 10px;
+  border: 2px solid #0071dc;
+  outline: none;
+  background-color: #fff;
+  color: #333333;
+}
+
+.file_size_input::placeholder {
+  color: #333333;
+}
+
+.file_size_input::-webkit-inner-spin-button {
+  appearance: none;
+}
+.file_name_input::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+.file_size_type {
+  width: 100%;
+  height: 45px;
+  text-indent: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 2px solid #0071dc;
+  outline: none;
+}
+
+.yonalish {
+  width: 170px;
+  height: 45px;
+  text-indent: 10px;
+  font-size: 18px;
+  margin: 0 0 20px 0;
+  border-radius: 10px;
+  border: 2px solid #0071dc;
+  outline: none;
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.send_file {
+  min-width: 150px;
+  min-height: 45px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  background-color: #0071dc;
+  color: #fff;
+  position: absolute;
+  left: 43%;
+  bottom: 80px;
+
+  cursor: pointer;
+}
+
+.send_file:hover {
+  background-color: #368bdb;
+}

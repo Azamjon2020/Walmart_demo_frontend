@@ -1,0 +1,62 @@
+.footer__feedback {
+  width: 100%;
+  height: 150px;
+  background-color: #e6f1fc;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__feedback h3 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 20px 0;
+}
+
+.footer__feedback button {
+  border-radius: 35px;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 0 1px grey;
+}
+
+.footer {
+  width: 100%;
+  height: 150px;
+  background-color: #004f9a;
+  color: white;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.footer ul {
+  width: 72%;
+  height: 60px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer ul li {
+  font-size: 13px;
+  line-height: 0.7;
+  text-align: center;
+
+  color: white;
+  margin-left: 10px;
+}
+
+.footer ul li:hover {
+  cursor: pointer;
+}
+
+.footer p {
+  font-size: 12px;
+  margin-top: 20px;
+}

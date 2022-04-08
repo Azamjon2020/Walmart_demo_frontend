@@ -1,0 +1,103 @@
+.department__li__plus2 {
+  height: 61vh;
+  position: absolute;
+  display: flex;
+  top: 25px;
+  left: 220px;
+}
+
+.department__li__plus2 .department__li__content2 {
+  max-height: 423px;
+  background-color: #e6f1fc;
+  display: flex;
+  overflow: auto;
+  padding: 0 0 0 5px;
+  align-items: center;
+}
+
+/* scroll style */
+.department__li__plus2 .department__li__content2::-webkit-scrollbar {
+  width: 8px;
+}
+
+.department__li__plus2 .department__li__content2::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.department__li__plus2 .department__li__content2::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background-color: rgba(139, 139, 139, 0.733);
+}
+
+.department__li__content2 ul {
+  width: 150px;
+  height: 423px;
+  text-align: start;
+  overflow: visible;
+  margin-left: 10px;
+}
+
+.department__li__content2 ul li {
+  font-size: 14px;
+  line-height: 2;
+}
+
+.department__li__content2 ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+/* nth-childs */
+
+.department__li__content2 ul:first-child li:nth-child(1),
+.department__li__content2 ul:first-child li:nth-child(8),
+.department__li__content2 ul:first-child li:nth-child(22),
+.department__li__content2 ul:first-child li:nth-child(33),
+.department__li__content2 ul:first-child li:nth-child(43) {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.department__li__content2 ul:first-child li:nth-child(1):hover,
+.department__li__content2 ul:first-child li:nth-child(8):hover,
+.department__li__content2 ul:first-child li:nth-child(22):hover,
+.department__li__content2 ul:first-child li:nth-child(33):hover,
+.department__li__content2 ul:first-child li:nth-child(43):hover {
+  text-decoration: none;
+  cursor: text;
+}
+
+.department__li__content2 ul:nth-child(2) li:nth-child(1),
+.department__li__content2 ul:nth-child(2) li:nth-child(11),
+.department__li__content2 ul:nth-child(2) li:nth-child(24),
+.department__li__content2 ul:nth-child(2) li:nth-child(36),
+.department__li__content2 ul:nth-child(2) li:nth-child(3) {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.department__li__content2 ul:nth-child(2) li:nth-child(1):hover,
+.department__li__content2 ul:nth-child(2) li:nth-child(11):hover,
+.department__li__content2 ul:nth-child(2) li:nth-child(24):hover,
+.department__li__content2 ul:nth-child(2) li:nth-child(36):hover,
+.department__li__content2 ul:nth-child(2) li:nth-child(3):hover {
+  text-decoration: none;
+  cursor: text;
+}
+
+.department__li__content2 ul:nth-child(3) li:nth-child(1),
+.department__li__content2 ul:nth-child(3) li:nth-child(5),
+.department__li__content2 ul:nth-child(3) li:nth-child(12),
+.department__li__content2 ul:nth-child(3) li:nth-child(19),
+.department__li__content2 ul:nth-child(3) li:nth-child(23) {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.department__li__content2 ul:nth-child(3) li:nth-child(1):hover,
+.department__li__content2 ul:nth-child(3) li:nth-child(5):hover,
+.department__li__content2 ul:nth-child(3) li:nth-child(12):hover,
+.department__li__content2 ul:nth-child(3) li:nth-child(19):hover,
+.department__li__content2 ul:nth-child(3) li:nth-child(23):hover {
+  text-decoration: none;
+  cursor: text;
+}

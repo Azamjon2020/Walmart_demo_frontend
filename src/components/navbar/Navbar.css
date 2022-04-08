@@ -1,0 +1,256 @@
+.walmart__navbar {
+  width: 100%;
+  height: 90px;
+  background-color: #0071dc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 24px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 17;
+}
+
+.walmart__logo__svg {
+  width: 190px;
+}
+
+.walmart__departments,
+.walmart__services {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 5px; */
+  /* background-color: red; */
+  padding: 0 15px;
+  border-radius: 40px;
+}
+
+.walmart__departments:hover,
+.walmart__services:hover {
+  background-color: rgba(78, 76, 76, 0.534);
+  cursor: pointer;
+}
+
+.walmart__departments svg,
+.walmart__services svg {
+  font-size: 18px;
+  color: white;
+}
+
+.walmart__departments h5,
+.walmart__services h5 {
+  font-size: 14px;
+  color: white;
+  padding-left: 10px;
+}
+
+.walmart__search {
+  width: 550px;
+  height: 40px;
+  background-color: white;
+  /* padding: 5px; */
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 0 0 20px;
+  position: relative;
+}
+.walmart__search__border {
+  border-radius: 4px;
+}
+
+.walmart__search__outline {
+  width: 546px;
+  height: 35px;
+  border: 2px solid #000;
+  position: absolute;
+  top: 2.5px;
+  left: 2.5px;
+  border-radius: 4px;
+}
+
+.walmart__search__outline__none {
+  display: none;
+}
+
+.walmart__search__border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.walmart__search__border input {
+  width: 460px;
+  height: 30px;
+  outline: none;
+  z-index: 2;
+  margin-right: 5px;
+  border: none;
+}
+
+.walmart__search__x {
+  margin-right: 10px;
+  z-index: 2;
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+.walmart__search__x__none {
+  margin-right: 10px;
+  font-size: 20px;
+  color: white;
+  z-index: 2;
+}
+
+.walmart__search__border .walmart__search__bg {
+  width: 30px;
+  height: 30px;
+  background-color: #f7c220;
+  border-radius: 50%;
+  margin-right: 5px;
+  display: grid;
+  place-items: center;
+  z-index: 2;
+}
+
+.walmart__search__border .walmart__search__bg svg {
+  font-size: 20px;
+}
+
+.walmart__reorder,
+.walmart__sig_in {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+  border-radius: 40px;
+}
+
+.walmart__reorder:hover,
+.walmart__sig_in:hover {
+  background-color: rgba(78, 76, 76, 0.534);
+  cursor: pointer;
+}
+
+.walmart__reorder svg,
+.walmart__sig_in svg {
+  color: white;
+}
+
+.walmart__reorder__text,
+.walmart__sig_in__text {
+  padding: 6px 10px;
+}
+
+.walmart__reorder__text h5,
+.walmart__sig_in__text h5 {
+  font-size: 14px;
+  color: white;
+}
+
+.walmart__reorder__text h6,
+.walmart__sig_in__text h6 {
+  font-size: 11px;
+  color: white;
+  font-weight: normal;
+}
+
+.walmart__basket {
+  height: 40px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.walmart__basket:hover {
+  cursor: pointer;
+}
+
+.walmart__basket span {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background-color: #f7c220;
+  /* font-size: 10px; */
+  font-weight: 800;
+  border: 0.5px solid #000;
+  position: absolute;
+  top: -2px;
+  right: -5px;
+}
+
+.walmart__basket svg {
+  font-size: 23px;
+  color: white;
+}
+
+.walmart__basket p {
+  font-size: 11px;
+  color: white;
+  width: 50px;
+  text-align: center;
+}
+/*  */
+
+.search_collection_product {
+  min-height: 50px;
+  /* background-color: red; */
+  top: 40px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  border-radius: 0 0 20px 20px;
+  overflow: hidden;
+  z-index: 18;
+  font-size: 55px;
+}
+
+.searched_item__product {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  font-size: 20px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+  flex: 1;
+  position: relative;
+  border-radius: 0 0 0 0;
+}
+
+.searched_item__product__wrapper:last-child {
+  border-radius: 0 0 20px 20px;
+}
+.searched_item__product svg {
+  position: absolute;
+  animation: searchIcon 2s infinite ease;
+}
+@keyframes searchIcon {
+  0% {
+    right: 120px;
+    color: #0071dc;
+    opacity: 1;
+  }
+  63% {
+    right: 10px;
+    opacity: 0.5;
+  }
+  66% {
+    right: 10px;
+    opacity: 0;
+  }
+  100% {
+    right: 80px;
+    opacity: 0;
+  }
+}

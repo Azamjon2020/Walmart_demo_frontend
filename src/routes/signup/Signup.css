@@ -1,0 +1,283 @@
+.login {
+  width: 100%;
+  height: 170vh;
+}
+
+.loginWrapper {
+  width: 25%;
+  height: 150vh;
+  margin: 0 auto;
+  text-align: center;
+  /* border: 1px solid #000; */
+}
+
+.loginWrapper img {
+  margin: 20px 0;
+}
+
+.loginWrapper h2 {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.loginWrapper .loginAddress {
+  width: 99%;
+  height: 60px;
+  margin-top: 25px;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.loginWrapper .loginAddress input {
+  width: 99%;
+  height: 55px;
+  border: none;
+  text-indent: 20px;
+  font-size: 15px;
+  margin: 2px;
+  outline: none;
+}
+.loginAddress span {
+  width: 90px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  top: -7px;
+  left: 20px;
+  font-size: 12px;
+  color: grey;
+}
+
+.loginWrapper .loginPassword {
+  width: 100%;
+  height: 60px;
+  margin-top: 25px;
+  position: relative;
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid grey;
+  align-items: center;
+}
+
+.loginWrapper .loginPassword span {
+  width: 90px;
+  height: 20px;
+  position: absolute;
+  top: -7px;
+  left: 20px;
+  font-size: 12px;
+  color: grey;
+  background-color: white;
+}
+
+.loginWrapper .loginPassword input {
+  width: 80%;
+  height: 55px;
+  margin: 2px;
+  border: none;
+  outline: none;
+  text-indent: 20px;
+  font-size: 15px;
+  outline: none;
+}
+.loginWrapper .loginPassword h5 {
+  text-decoration: underline;
+  font-size: 15px;
+  margin-left: 12px;
+  font-weight: normal;
+  color: #000;
+  cursor: pointer;
+}
+
+.passwordFunc {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  text-align: start;
+  margin-top: 10px;
+}
+
+.passwordFunc svg {
+  font-size: 15px;
+}
+.passwordFunc .passwordFuncChecked {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: center;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.svgGreen {
+  color: green;
+}
+
+.svgRed {
+  color: red;
+}
+
+.loginWrapper h6 {
+  font-size: 12px;
+  text-align: end;
+  margin-top: 25px;
+  font-weight: normal;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.loginChekbox {
+  width: 100%;
+  height: 40px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+.loginChekbox input {
+  text-indent: 20px;
+  height: 20px;
+  width: 20px;
+  border-radius: 5px;
+  border: 2px solid #000;
+  margin: 0px 10px 0 0;
+}
+.loginChekbox span {
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.unCheck {
+  width: 100%;
+  height: 20px;
+  font-size: 14px;
+  opacity: 0.9;
+  display: flex;
+  align-items: center;
+}
+
+.unCheck span {
+  margin-left: 5px;
+  text-decoration: underline;
+  opacity: 1;
+  cursor: pointer;
+}
+/*  */
+
+.loginChekboxSend {
+  width: 100%;
+  height: 60px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+  /* background-color: aqua; */
+}
+.loginChekboxSend input {
+  text-indent: 20px;
+  height: 20px;
+  width: 20px;
+  border-radius: 5px;
+  border: 2px solid #000;
+  margin: 0px 10px 0 0;
+}
+.loginChekboxSend span {
+  font-size: 13px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.unCheckSend {
+  width: 100%;
+  height: 40px;
+  font-size: 12.5px;
+  opacity: 0.9;
+  display: flex;
+  text-align: start;
+  line-height: 1.5;
+}
+
+.unCheckSend span span {
+  margin: 0 5px;
+  text-decoration: underline;
+  opacity: 1;
+  cursor: pointer;
+}
+/*  */
+.signInBtns,
+.loginBtns {
+  width: 100%;
+  height: 50px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: all 0.1s ease-in-out;
+}
+.loginBtnsWrapper {
+  border: none;
+  /* background-color: red; */
+}
+
+/* .loginBtnsWrapper:first-child {
+}
+
+.loginBtnsWrapper:last-child {
+} */
+
+.signInBtns {
+  border: 1px solid #000;
+  color: #000;
+}
+.signInBtns:hover {
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.loginBtns {
+  background-color: #0065ff;
+  color: white;
+  border: none;
+}
+.loginBtns:hover {
+  cursor: pointer;
+  background-color: #0066ff98;
+}
+
+.loginTitle {
+  margin-top: 30px;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.signInFooter {
+  width: 100%;
+  height: 19vh;
+  border-top: 5px solid rgb(219, 219, 219);
+  padding: 19px;
+  position: relative;
+}
+
+.signInFooter ul {
+  display: flex;
+  font-size: 13px;
+}
+.signInFooter ul li {
+  text-decoration: underline;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.signInFooter span {
+  position: absolute;
+  right: 20px;
+  top: 60px;
+  font-size: 11px;
+}

@@ -1,0 +1,54 @@
+.departments {
+  width: 100%;
+  height: 60vh;
+  padding: 20px 0 0 0;
+}
+
+.departments__wrappper {
+  width: 91%;
+  height: 78vh;
+  margin: 0 auto;
+}
+
+.departments__wrappper h6 {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.departments__title {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.departments__title h2 {
+  font-size: 18px;
+}
+.departments__title p {
+  font-size: 13px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.departments__collections {
+  width: 100%;
+  height: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.departments__collection__item {
+  width: 190px;
+  height: 240px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 8px;
+  color: #004f9a;
+  padding: 0 0 0 20px;
+  border: 1px solid rgba(207, 205, 205, 0.452);
+}
